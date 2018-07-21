@@ -1,3 +1,7 @@
-# Tensorflow Ensemble Trainer
+# Ensemble trainer #
 
-This directory contains all code materials related to my Tensorflow-Ensemble DNN trainer. The code is based on the Slim package, and several directories here are copied from Slim.
+multi_gpu_train.py
+A multi gpu trainer. titan_baseline.pbs uses this script with 1 GPU
+for the baseline. xsede can use this to obtain parallel training. 
+
+TODO
